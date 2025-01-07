@@ -50,3 +50,13 @@ body {
     font-size: 3rem;
     font-weight: bold;
   }
+
+  #timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+}
