@@ -1,4 +1,4 @@
-let count = 0;
+        let count = 0;
         let timeLeft = 5;
         let timerInterval;
         const messages = [
@@ -10,9 +10,7 @@ let count = 0;
             "Temps écoulé Bien Jouer ;) !"
         ];
 
-        document
-            .getElementById("button-clicker")
-            .addEventListener("click", () => {
+        document.getElementById("button-clicker").addEventListener("click", () => {
                 if (count === 0) {
                     // Start the timer when the first click happens
                     startTimer();
